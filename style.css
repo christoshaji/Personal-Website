@@ -1,0 +1,66 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background: url(lap.jpg) ;
+    background-size: cover no-repeat;
+    background-position:center;
+    /* background-color: (185, 178, 179); */
+  }
+   .box{
+    width: 500px;
+    background:rgba(77, 126, 231, 0.103);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(252, 252, 252);
+    font-family: 'Century Gothic',sans-serif;
+    
+  } 
+  
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+ 
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: white;
+    font-family:Georgia, serif;
+    width: auto;
+    
+  }
+  .box h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family:serif;
+    
+  }
+  .box p{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+  }
+  
+  /* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } */
+  .button{
+    background-color: rgba(164, 196, 196, 0.486);
+    position:absolute;
+    top: 85%;
+    left: 41%;
+    color: beige;
+    border: gray;
+    font-size: 30px;
+    padding: 10px 70px;
+    border-radius: 8px;
+    cursor:pointer;
+  }
