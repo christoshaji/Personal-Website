@@ -6,6 +6,29 @@ body,html{
     background-position:center;
      
   }
+
+.navbar{
+  background-color: rgb(107 147 155);
+   
+}
+.navbar ul{
+  overflow: auto;
+  margin: 0%;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  margin: 13px 20px;
+  
+}
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.navbar li a :hover{
+  background-color: red;
+}
    .box{
     width: 500px;
     background:rgba(77, 126, 231, 0.103);
@@ -32,6 +55,8 @@ body,html{
     letter-spacing: 4px;
     font-weight: 300;
     color: white;
+    
+    
     font-family:Georgia, serif;
     width: auto;
     
@@ -42,12 +67,10 @@ body,html{
     font-family:serif;
     margin: 10px;
   }
-  .box p{
-    text-align:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 22px;
-    padding: 10px;
-  }
+  
+   
+
+  
   .box a{
     display: grid;
     height: 80px;
@@ -57,7 +80,7 @@ body,html{
     margin: auto;
     left: 7px;
     right: 0;
-    bottom: 16px;
+    bottom: 75px;
     place-items: center;
     font-family: 'Poppins', sans-serif;
     color: white;
@@ -66,6 +89,13 @@ body,html{
     letter-spacing: 3px;
     font-weight: 500;
     border-radius: 5px;
-
-
+  }
+   .container{
+    padding: 1rem 0;
+   }
+  .container p{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    padding: 10px;
   }
